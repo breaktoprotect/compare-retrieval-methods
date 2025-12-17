@@ -1,0 +1,11 @@
+[project]
+name = "test-bm25"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "bm25s>=0.2.14",
+    "pydantic>=2.12.5",
+    "sentence-transformers>=5.2.0",
+]
